@@ -1,0 +1,36 @@
+<mj-section background-color="#fff">
+    <mj-column>
+         <mj-divider border-width="1px" border-color="#eaeaea" />
+    </mj-column>
+</mj-section>        
+
+<mj-section background-color="#fff" padding-bottom="0">
+    <mj-column vertical-align="middle">
+        <mj-text align="center" css-class="footer-copyright">
+            <a href="${{strings.common_footer_support_link}}$" style="text-decoration: none; color: inherit;">${{strings.common_footer_support_text}}$</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+<mj-section padding-top="0" background-color="#fff">
+    <mj-column width="100%" padding-right="0">
+        <mj-text css-class="footer-contacts" align="center">
+            <a class="footer-link" href="mailto:${{strings.common_footer_contact_email}}$">${{strings.common_footer_contact_email}}$</a>&#xA0;|&#xA0;<a class="footer-link" href="tel:${{strings.common_footer_contact_phone}}$">${{strings.common_footer_contact_phone}}$</a>
+        </mj-text>
+    </mj-column>
+</mj-section>
+ 
+ <mj-section padding-top="0" background-color="#fff">
+     <mj-column>
+        <mj-social icon-size="18px" mode="horizontal" inner-padding="10px 20px">
+            <mj-social-element background-color="black" name="instagram-noshare" href="${{strings.common_footer_social_instagram_link}}$">
+            </mj-social-element>
+            <mj-social-element background-color="black" name="facebook-noshare" href="${{strings.common_footer_social_facebook_link}}$">
+            </mj-social-element>
+            <mj-social-element  background-color="black" name="twitter-noshare" href="${{strings.common_footer_social_twitter_link}}$">
+            </mj-social-element>
+            <mj-social-element  background-color="black" name="linkedin-noshare" href="${{strings.common_footer_social_linkedin_link}}$">
+            </mj-social-element>
+        </mj-social>
+     </mj-column>
+ </mj-section>

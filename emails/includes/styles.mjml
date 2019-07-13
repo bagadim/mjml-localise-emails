@@ -1,0 +1,87 @@
+<mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap"></mj-font>
+
+
+<mj-attributes>
+    <mj-all font-weight="300" line-height="1.25" font-family="Roboto, sans-serif" />
+</mj-attributes>
+
+<!-- Buttons -->
+<!-- @important Outlook ignores padding and border on <a>. -->
+<mj-style inline="inline">
+    .button-primary {
+        text-align: left !important;
+    }
+    .button-primary table tr td {
+        border-radius: 0 !important;
+        background: #2364AA !important;
+        padding: 10px 50px !important;
+    }
+    
+    .button-primary table tr td a {
+        color: #fff;
+        background: #2364AA !important; 
+        font-size: 18px !important;
+        letter-spacing: 0px;
+        display: block !important;
+        text-align: center; 
+        text-decoration: none;
+        font-weight: 400 !important;
+        text-transform: uppercase !important;
+        border: 10px solid #2364AA !important;
+    }
+    .footer-link {
+        color: #3DA5D9 !important;
+        font-size: 17px !important; 
+    }
+</mj-style>
+
+<!-- Text -->
+<mj-style inline="inline">
+    .h1 div {
+        font-size: 48px !important;
+        letter-spacing: 0px !important;
+        line-height: 1.13 !important;
+    }
+    .strong-text div {
+        font-weight: 400 !important;
+        font-size: 24px !important; 
+        letter-spacing: 0px !important;
+    }
+    .regular-text div {
+        font-weight: 300 !important;
+        font-size: 24px !important; 
+        letter-spacing: 0px !important;
+    }
+    .small-text {
+        font-weight: 300 !important;
+        font-size: 14px !important; 
+        letter-spacing: 0px !important;
+    }
+</mj-style>
+
+<!-- Should not be inlined. External Links are used in localised strings, we are not inlining that css. -->
+<mj-style>
+    .external-link {
+      font-size: 24px;
+      line-height: 1.25;
+      letter-spacing: 0px;
+      font-family: Roboto, sans-serif;
+      font-weight: 400 !important;
+      text-decoration: none !important;
+      color: #2364AA !important;
+    }
+</mj-style>
+
+<!-- Footer styles -->
+<mj-style inline="inline">
+    .footer-copyright div {
+        font-weight: 400 !important;
+        font-size: 17px !important; 
+    }
+    .footer-contacts {
+        padding: 0 25px 10px !important;
+    }
+    .footer-copyright {
+        padding: 10px 25px 5px !important;
+    }
+</mj-style>

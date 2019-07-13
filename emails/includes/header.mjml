@@ -1,0 +1,6 @@
+
+<mj-section background-color="#fff">
+    <mj-column>
+        <mj-text >Lorem ipsum dolor </mj-text>
+    </mj-column>
+</mj-section>
