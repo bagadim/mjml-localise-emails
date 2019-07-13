@@ -30,3 +30,6 @@ Prod build:
 ```
 $ gulp prod --key=<lokalise_token>
 ```
+
+## output
+<img width="499" alt="output_example" src="https://user-images.githubusercontent.com/10193153/61174605-44933700-a5ab-11e9-9d77-1f5e40cd0800.png">
