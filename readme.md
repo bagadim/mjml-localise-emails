@@ -2,7 +2,8 @@
 ## info
 
 Simple way to create emails with mjml template language that you can customize and predefined scripts for localizing those emails using lokalise.io service.
-You need lokalise.io project to run it. If you do not use lokalise.io on your project, you will need to replace localization process.
+
+You need lokalise.io project to run it. If you do not use lokalise.io in your project, you will need to replace localization process.
 
 ## to start
 Set LOKALISE_PROJECT_ID in gulpfile.js
