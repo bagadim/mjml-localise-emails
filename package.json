@@ -4,7 +4,7 @@
     "author": "Dmitry Bogomolov",
     "dependencies": {
         "gulp": "4.0.2",
-        "gulp-mjml": "3.0.0",
+        "gulp-mjml": "4.0.2",
         "gulp-rename": "1.4.0",
         "browser-sync": "2.26.7",
         "gulp-html-i18n": "0.15.0",
